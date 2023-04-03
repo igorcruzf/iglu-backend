@@ -1,0 +1,42 @@
+[
+  {
+    "history": "David was a young student in search of adventure. He was fascinated by the stories of pirates and their treasure, and dreamed of finding a hoard of his own. One day, while wandering in the woods near his home, he stumbled upon an old map lying on the ground. It showed the location of an island where legends said that a pirate's treasure was buried. David immediately set out to find it, following the map through treacherous mountains and turbulent seas. Finally, after weeks of travel, he arrived at the island and began to dig frantically for treasure. Hours later, as he dug deeper into the earth, something glinted in front of him.\n",
+    "question": " What was David's goal?\n",
+    "correctAnswer": " To become a pirate",
+    "answers": [
+      " To find treasure on an island ",
+      " To become a pirate",
+      " To explore mountains and seas "
+    ]
+  },
+  {
+    "history": "As the sun rose over the desert, Malik mounted his horse and prepared for a long day of riding. He had heard rumors of a hidden oasis deep in the dunes, and he was determined to find it. With his loyal companion, a dog named Luna, running by his side, Malik set off on his journey. The days were hot and treacherous, but they pushed on through the unrelenting sand as their water supply dwindled. Finally, after what seemed like an eternity of searching in vain, they stumbled upon the oasis- a shimmering lake surrounded by palm trees basking in the cool shade. They drank deeply from its waters and rested under its branches before continuing forward on their journey with renewed vigor.\n",
+    "question": " What was Malik's dog's name?\n",
+    "correctAnswer": " Luna",
+    "answers": [
+      "Jupiter",
+      " Luna",
+      "Mars"
+    ]
+  },
+  {
+    "history": "As the sun began to set on the small town, a lone figure walked along the deserted streets. His name was Davis and he had just finished his shift at the local diner. As he passed by a dimly lit alleyway, he heard a faint whimper. Curiosity getting the better of him, Davis hesitantly made his way towards the sound. In the shadows, he saw a small dog shivering in fear. It looked like it had been abandoned by its owner and left to fend for itself. Davis knew he couldn't leave it there to die alone.\n                      \n",
+    "question": " Who is the main character in this story?\n",
+    "correctAnswer": " Alexa",
+    "answers": [
+      " Alexa",
+      "Nathan",
+      "Mia"
+    ]
+  },
+  {
+    "history": "Nova had always been fascinated by the stars. As a little girl, she would spend hours staring up at the sky, trying to memorize the constellations. And now, as an adult, she was finally able to pursue her dream and become an astronaut. She had trained for years for this moment, and she felt both nervous and excited as she boarded the shuttle that would take her on her first mission to space. As they soared higher into the atmosphere, Nova couldn't help but feel a sense of awe at the vastness of space around her. She knew that from here on out, her life would never be quite the same again.\n ",
+    "question": " What did Nova dream of becoming when she was younger?\n ",
+    "correctAnswer": " Astronaut",
+    "answers": [
+      " Artist",
+      " Lawyer",
+      " Astronaut"
+    ]
+  }
+]

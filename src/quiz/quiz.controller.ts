@@ -11,12 +11,14 @@ export class QuizController {
     @Query('language') language: string,
     @Query('questionsQuantity') questionsQuantity = 5,
     @Query('answersQuantity') answersQuantity = 3,
+    @Query('useMock') useMock = false,
   ): Promise<QuizData[]> {
     try {
       return await this.quizService.getQuiz({
         language,
         questionsQuantity,
         answersQuantity,
+        useMock,
       });
     } catch (error) {
       throw error;

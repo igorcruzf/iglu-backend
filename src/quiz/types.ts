@@ -29,4 +29,5 @@ export type ApiParams = {
   language: string;
   questionsQuantity: number;
   answersQuantity: number;
+  useMock?: boolean;
 };

@@ -2,16 +2,27 @@ import { ApiParams, QuizData } from './types';
 import { shuffle } from './utils';
 import { OpenAiApiService } from './openAIApi.service';
 import { Injectable } from '@nestjs/common';
+import * as fs from 'fs';
 
+const MOCK_QUIZ_PATH = 'src/quiz/mocks/quizMock.json';
 @Injectable()
 export class QuizService {
   constructor(private readonly openAiApiService: OpenAiApiService) {}
+
+  async getMockQuiz(): Promise<QuizData[]> {
+    return JSON.parse(fs.readFileSync(MOCK_QUIZ_PATH, 'utf8'));
+  }
 
   async getQuiz({
     language,
     questionsQuantity,
     answersQuantity,
+    useMock,
   }: ApiParams): Promise<QuizData[]> {
+    if (useMock) {
+      return this.getMockQuiz();
+    }
+
     const chatCompletion = await this.openAiApiService.fetchQuizData({
       language,
       questionsQuantity,
