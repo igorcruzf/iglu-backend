@@ -9,7 +9,7 @@ export class QuizController {
   @Get()
   async getQuizData(
     @Query('language') language: string,
-    @Query('questionsQuantity') questionsQuantity = 10,
+    @Query('questionsQuantity') questionsQuantity = 5,
     @Query('answersQuantity') answersQuantity = 3,
   ): Promise<QuizData[]> {
     try {
